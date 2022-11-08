@@ -10,7 +10,7 @@ interface Params {
   name?: string
 }
 
-const CustomizedRadioButton: FC<Params> = ({
+export const CustomizedRadioButton: FC<Params> = ({
   label,
   description,
   disabled = false,
@@ -68,5 +68,3 @@ const CustomizedRadioButton: FC<Params> = ({
     </>
   )
 }
-
-export default CustomizedRadioButton
