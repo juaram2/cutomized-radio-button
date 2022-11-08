@@ -14,7 +14,7 @@
 
 ## UI
 
-<img src="../public/img/state.png" alt="state" />
+![image](https://user-images.githubusercontent.com/26706369/200535364-ff051532-6a71-4f61-a0c1-567e3b05b3e8.png)
 
 ## Figma
 
