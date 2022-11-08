@@ -1,6 +1,6 @@
 {
   "name": "cutomized-radio-button",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cutomized-radio-button",
   "main": "dist/CustomizedRadioButton.js",
   "types": "dist/CustomizedRadioButton.d.ts",
