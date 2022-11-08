@@ -1,9 +1,5 @@
 # Customized-radio-button
 
-## How to use
-
-`npm i customzed-radio-button`
-
 ## Params
 
 | Param       | type                | desctiption                             |
