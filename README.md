@@ -31,13 +31,9 @@
 
 ## Example
 
-![image](https://user-images.githubusercontent.com/26706369/200535364-ff051532-6a71-4f61-a0c1-567e3b05b3e8.png)
+![image](https://user-images.githubusercontent.com/26706369/202345076-aee99ceb-aa0a-453d-b368-98e6277bce2d.png)
 
-## Figma
-
-[Developers-Web](https://www.figma.com/file/M85QylCyNYF5WSj4zAVx64/Developers-Web?node-id=1230%3A0)
-
-## Based on TailwindCSS
+## Style Based on TailwindCSS
 
 [Tailwind css](https://tailwindcss.com/)
 
