@@ -1,26 +1,28 @@
 import React, { FC } from 'react'
 
 interface Params {
+  name?: string
   label?: string
+  value?: any
   description?: string
   disabled?: boolean
-  onChange?: Function
-  value?: any
   checked?: boolean
-  name?: string
+  onChange?: Function
+  icon?: JSX.Element
 }
 
 export const CustomizedRadioButton: FC<Params> = ({
+  name,
   label,
+  value,
   description,
   disabled = false,
-  onChange,
-  value,
   checked = false,
-  name,
+  onChange,
+  icon,
 }) => {
   const onInputChange = () => {
-    onChange
+    onChange && onChange()
   }
 
   return (
@@ -55,14 +57,7 @@ export const CustomizedRadioButton: FC<Params> = ({
             {description}
           </p>
 
-          {/* {checked && (
-            <CheckIcon
-              color={COLOR_PRIMARY}
-              width={16}
-              height={16}
-              className="absolute top-1/2 right-[16px] -translate-y-1/2"
-            />
-          )} */}
+          {checked && icon}
         </div>
       </div>
     </>
