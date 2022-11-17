@@ -2,25 +2,30 @@
 
 ## Params
 
-| **Param**   | **Type**            | **Desctiption**                         |
-| ----------- | ------------------- | --------------------------------------- |
-| label       | string (optional)   | Input label                             |
-| description | string (optional)   | Input description                       |
-| disabled    | boolean (optional)  | Input disabled (default value is false) |
-| onChange    | Function (optional) | onChange function                       |
-| value       | any (optional)      | Input value                             |
-| checked     | boolean (optional)  | Input checked (default value is false)  |
-| name        | string (optional)   | Input name                              |
+| **Param**    | **Type**            | **Desctiption**                               |
+| ------------ | ------------------- | --------------------------------------------- |
+| name         | string (required)   | Input name                                    |
+| label        | string (required)   | Input label                                   |
+| value        | any (required)      | Input value                                   |
+| description? | string              | Input description that is showing under label |
+| disabled?    | boolean             | Input disabled (default value is false)       |
+| checked?     | boolean             | Input checked (default value is false)        |
+| onChange     | Function (required) | onChange function                             |
+| icon?        | JSX.Element         | Checked icon                                  |
 
 ## How to use
 
 ```tsx
-<CustomizedRadioButton 
-    value={"VALUE"}
-    checked={true|false}
-    label={"LABEL"}
-    description={"DESCRIPTION"}
-    onChange={FUNCTION()}
+<CustomizedRadioButton
+  id={'NAME'}
+  name={'NAME'}
+  value={'VALUE'}
+  label={'LABEL'}
+  description={'DESCRIPTION'}
+  disabled={true | false}
+  checked={true | false}
+  onChange={Function()}
+  icon={JSX.Element}
 />
 ```
 

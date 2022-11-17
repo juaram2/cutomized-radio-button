@@ -57,7 +57,7 @@ export const CustomizedRadioButton: FC<Params> = ({
             {description}
           </p>
 
-          {checked && icon}
+          {checked && (icon ?? <div>✓</div>)}
         </div>
       </div>
     </>
