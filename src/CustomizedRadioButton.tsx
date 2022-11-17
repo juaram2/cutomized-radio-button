@@ -1,13 +1,13 @@
 import React, { FC } from 'react'
 
 interface Params {
-  name?: string
-  label?: string
-  value?: any
+  name: string
+  label: string
+  value: any
   description?: string
   disabled?: boolean
   checked?: boolean
-  onChange?: Function
+  onChange: Function
   icon?: JSX.Element
 }
 

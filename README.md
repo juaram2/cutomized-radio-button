@@ -2,16 +2,16 @@
 
 ## Params
 
-| **Param**    | **Type**            | **Desctiption**                               |
-| ------------ | ------------------- | --------------------------------------------- |
-| name         | string (required)   | Input name                                    |
-| label        | string (required)   | Input label                                   |
-| value        | any (required)      | Input value                                   |
-| description? | string              | Input description that is showing under label |
-| disabled?    | boolean             | Input disabled (default value is false)       |
-| checked?     | boolean             | Input checked (default value is false)        |
-| onChange     | Function (required) | onChange function                             |
-| icon?        | JSX.Element         | Checked icon                                  |
+| **Param**    | **Type**            | **Desctiption**                              |
+| ------------ | ------------------- | -------------------------------------------- |
+| name         | string (required)   | Input name                                   |
+| label        | string (required)   | Input label                                  |
+| value        | any (required)      | Input value                                  |
+| description? | string              | Description text that is showing under label |
+| disabled?    | boolean             | Input disabled (default value is false)      |
+| checked?     | boolean             | Input checked (default value is false)       |
+| onChange     | Function (required) | onChange function                            |
+| icon?        | JSX.Element         | Checked icon                                 |
 
 ## How to use
 
